@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    color: #183b56;
+}
+
+section div {
+    width: 100%;
+    height: 45px;
+    background-color: #e74694;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section p {
+    color: white;
+}
+
+.nav .nav-left img {
+    width: 250px;
+    height: 46px;
+}
+
+.nav .nav-right a {
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+}
+
+.nav .nav-right .btn-in {
+    width: 102px;
+    height: 51px;
+    border: 1px solid #2294ed;
+    border-radius: 10px;
+    background-color: white;
+    font-size: 16px;
+}
+
+.nav .nav-right .btn-up {
+    width: 102px;
+    height: 51px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: #2294ed;
+    color: white;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.main .main-left h1 {
+    font-size: 48px;
+    color: #183b56;
+    font-weight: 500;
+}
+
+.main .main-left p {
+    color: #183b56;
+    width: 550px;
+    font-size: 17.6px;
+}
+
+.main .main-left button {
+    width: 169.844px;
+    height: 49px;
+    background-color: #2294ed;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    border: 1px solid #2294ed;
+    border-radius: 10px;
+}
+
+.main .main-right img {
+    width: 546px;
+    height: 400px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.p-main {
+    text-align: center;
+}
+
+.main-img img {
+    width: 120px;
+    height: 80px;
+}
+
+.main-img {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+}
+
+.main-features h2 {
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+}
+
+.main-features button {
+    width: 193px;
+    height: 51px;
+    border: 1px solid #2294ed;
+    border-radius: 10px;
+    padding: 12px 10px 12px 10px;
+    background-color: white;
+    font-size: 16px;
+
+}
+
+.main-features .features-button {
+    display: flex;
+    justify-content: center;
+}
+
+.main-prototype .left img {
+    width: 40px;
+    height: 60px;
+}
+
+.main-prototype .left h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.main-prototype .left button {
+    width: 172px;
+    height: 39px;
+    border: 1px solid #577592;
+    font-size: 16px;
+    padding: 6px 32px 6px 32px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.main-prototype .middle img {
+    width: 40px;
+    height: 60px;
+}
+
+.main-prototype .middle h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.main-prototype .middle button {
+    width: 172px;
+    height: 39px;
+    border: 1px solid #577592;
+    font-size: 16px;
+    padding: 6px 32px 6px 32px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.main-prototype .right img {
+    width: 40px;
+    height: 60px;
+}
+
+.main-prototype .right h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.main-prototype .right button {
+    width: 172px;
+    height: 39px;
+    border: 1px solid #577592;
+    font-size: 16px;
+    padding: 6px 32px 6px 32px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.main-prototype{
+    display: flex;
+    justify-content: space-around;
+    line-height: 30px;
+}
+
+.main-preference .left img {
+    width: 40px;
+    height: 60px;
+}
+
+.main-preference .left h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.main-preference .left button {
+    width: 172px;
+    height: 39px;
+    border: 1px solid #577592;
+    font-size: 16px;
+    padding: 6px 32px 6px 32px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.main-preference .middle img {
+    width: 40px;
+    height: 60px;
+}
+
+.main-preference .middle h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.main-preference .middle button {
+    width: 172px;
+    height: 39px;
+    border: 1px solid #577592;
+    font-size: 16px;
+    padding: 6px 32px 6px 32px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.main-preference .right img {
+    width: 40px;
+    height: 60px;
+}
+
+.main-preference .right h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.main-preference .right button {
+    width: 172px;
+    height: 39px;
+    border: 1px solid #577592;
+    font-size: 16px;
+    padding: 6px 32px 6px 32px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.main-preference{
+    display: flex;
+    justify-content: space-around;
+    line-height: 30px;
+}
