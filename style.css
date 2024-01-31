@@ -259,3 +259,95 @@ section p {
     justify-content: space-around;
     line-height: 30px;
 }
+
+.color-change{
+    color: black;
+}
+
+.main-design .left img{
+    width: 464px;
+    height: 473px;
+}
+
+.main-design .right .design-img-one{
+    width: 120px;
+    height: 34px;
+}
+
+ .main-design .right{
+    font-size: 17.6px;
+ }
+
+ .main-design .right .design-img-two{
+    width: 60px;
+    height: 60px;
+ }
+
+ .main-design{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+ }
+
+ .design-flex{
+    display: flex;
+ }
+
+
+ .main-markets .right img{
+    width: 464px;
+    height: 473px;
+}
+
+.main-markets .left .design-img-one{
+    width: 120px;
+    height: 34px;
+}
+
+ .main-markets .left{
+    font-size: 17.6px;
+ }
+
+ .main-markets .left .design-img-two{
+    width: 60px;
+    height: 60px;
+ }
+
+ .main-markets{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+ }
+
+ .design-flex{
+    display: flex;
+ }
+
+ .main-manager .left img{
+    width: 464px;
+    height: 473px;
+}
+
+.main-manager .right .design-img-one{
+    width: 120px;
+    height: 34px;
+}
+
+ .main-manager .right{
+    font-size: 17.6px;
+ }
+
+ .main-manager .right .design-img-two{
+    width: 60px;
+    height: 60px;
+ }
+
+ .main-manager{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+ }
+
+ .design-flex{
+    display: flex;
+ }
