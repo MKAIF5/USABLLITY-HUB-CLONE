@@ -188,7 +188,7 @@ section p {
     background-color: white;
 }
 
-.main-prototype{
+.main-prototype {
     display: flex;
     justify-content: space-around;
     line-height: 30px;
@@ -254,100 +254,253 @@ section p {
     background-color: white;
 }
 
-.main-preference{
+.main-preference {
     display: flex;
     justify-content: space-around;
     line-height: 30px;
 }
 
-.color-change{
+.color-change {
     color: black;
 }
 
-.main-design .left img{
+.main-design .left img {
     width: 464px;
     height: 473px;
 }
 
-.main-design .right .design-img-one{
+.main-design .right .design-img-one {
     width: 120px;
     height: 34px;
 }
 
- .main-design .right{
+.main-design .right {
     font-size: 17.6px;
- }
+}
 
- .main-design .right .design-img-two{
+.main-design .right .design-img-two {
     width: 60px;
     height: 60px;
- }
+}
 
- .main-design{
+.main-design {
     display: flex;
     justify-content: center;
     gap: 150px;
- }
+}
 
- .design-flex{
+.design-flex {
     display: flex;
- }
+}
 
 
- .main-markets .right img{
+.main-markets .right img {
     width: 464px;
     height: 473px;
 }
 
-.main-markets .left .design-img-one{
+.main-markets .left .design-img-one {
     width: 120px;
     height: 34px;
 }
 
- .main-markets .left{
+.main-markets .left {
     font-size: 17.6px;
- }
+}
 
- .main-markets .left .design-img-two{
+.main-markets .left .design-img-two {
     width: 60px;
     height: 60px;
- }
+}
 
- .main-markets{
+.main-markets {
     display: flex;
     justify-content: center;
     gap: 150px;
- }
+}
 
- .design-flex{
+.design-flex {
     display: flex;
- }
+}
 
- .main-manager .left img{
+.main-manager .left img {
     width: 464px;
     height: 473px;
 }
 
-.main-manager .right .design-img-one{
+.main-manager .right .design-img-one {
     width: 120px;
     height: 34px;
 }
 
- .main-manager .right{
+.main-manager .right {
     font-size: 17.6px;
- }
+}
 
- .main-manager .right .design-img-two{
+.main-manager .right .design-img-two {
     width: 60px;
     height: 60px;
- }
+}
 
- .main-manager{
+.main-manager {
     display: flex;
     justify-content: center;
     gap: 150px;
- }
+}
 
- .design-flex{
+.design-flex {
     display: flex;
- }
+}
+
+.h2-platform {
+    font-size: 24px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.btn-platform {
+    border: 1px solid #2294ed;
+    padding: 12px 24px 12px 24px;
+    font-size: 16px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.card-one {
+    background-image: linear-gradient(0deg, rgba(12, 12, 12, 0.5), rgba(23, 22, 23, 0.3)), url("https://usabilityclone.vercel.app/images/asset\ 36.jpeg");
+    background-size: cover;
+    background-position: center;
+    width: 256px;
+    height: 300px;
+}
+
+.card-one h3 {
+    font-size: 17.6px;
+    color: white;
+    position: relative;
+    top: 199px;
+    left: 10px;
+}
+
+.card-two {
+    background-image: linear-gradient(0deg, rgba(12, 12, 12, 0.5), rgba(23, 22, 23, 0.3)), url("https://usabilityclone.vercel.app/images/asset\ 37.jpeg");
+    background-size: cover;
+    background-position: center;
+    width: 256px;
+    height: 300px;
+}
+
+.card-two h3 {
+    font-size: 17.6px;
+    color: white;
+    position: relative;
+    top: 199px;
+    left: 10px;
+}
+
+.card-three {
+    background-image: linear-gradient(0deg, rgba(12, 12, 12, 0.5), rgba(23, 22, 23, 0.3)), url("https://usabilityclone.vercel.app/images/asset\ 38.jpeg");
+    background-size: cover;
+    background-position: center;
+    width: 256px;
+    height: 300px;
+}
+
+.card-three h3 {
+    font-size: 17.6px;
+    color: white;
+    position: relative;
+    top: 199px;
+    left: 10px;
+}
+
+.card-four {
+    background-image: linear-gradient(0deg, rgba(12, 12, 12, 0.5), rgba(23, 22, 23, 0.3)), url("https://usabilityclone.vercel.app/images/asset\ 39.jpeg");
+    background-size: cover;
+    background-position: center;
+    width: 256px;
+    height: 300px;
+}
+
+.card-four h3 {
+    font-size: 17.6px;
+    color: white;
+    position: relative;
+    top: 225px;
+    left: 10px;
+}
+
+.card-main {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.testing h2 {
+    font-size: 24px;
+    letter-spacing: 1.1px;
+    text-align: center;
+}
+
+.testing p{
+    font-size: 17.6px;
+    text-align: center;
+}
+
+.testing button{
+    background-color: #2294ed;
+    padding: 12px 24px 12px 24px;
+    border: 1px solid #2294ed;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+footer{
+    background-color: #ebf2fa;
+    width: 100%;
+    height: 489px;
+}
+
+footer .left img{
+    width: 230px;
+    height: 42px;
+}
+
+footer .middle h2{
+    font-size: 18px;
+}
+
+footer .mid-ddle h2{
+    font-size: 18px;
+}
+
+footer .right h2{
+    font-size: 18px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 35px;
+}
+
+.footer{
+    width: 100%;
+    height: 64px;
+    background-color: #b9cde4;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+
+.footer p{
+    font-size: 12.8px;
+}
+
+.footer img{
+    width: 24px;
+    height: 24px;
+}
